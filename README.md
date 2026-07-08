@@ -2,6 +2,14 @@
 
 A desktop app, built with [Tauri](https://tauri.app/), React, and TypeScript, for keeping an eye on your Claude activity — usage, which skills/tools are active, and other Claude Code session information at a glance.
 
+## Tech Stack
+
+- [Tauri 2](https://tauri.app/) — Rust-backed desktop app shell
+- [React 19](https://react.dev/) + [TypeScript](https://www.typescriptlang.org/)
+- [Vite](https://vite.dev/) — dev server and bundler
+- [Tailwind CSS 4](https://tailwindcss.com/) — utility-first, responsive styling
+- [shadcn/ui](https://ui.shadcn.com/) (Radix primitives + Lucide icons) — accessible, composable dashboard components
+
 ## Platform Support
 
 | Platform | Status |
@@ -64,7 +72,7 @@ xcode-select --install
 ## Setup
 
 ```sh
-git clone <this-repo-url>
+git clone git@github.com:rzkadltm/claudewatch.git
 cd claudewatch
 npm install
 ```
